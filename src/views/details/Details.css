@@ -1,0 +1,22 @@
+.details {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.details nav {
+  margin-top: 1.5rem;
+}
+
+.details__container {
+  border: 0.1rem solid grey;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  box-shadow: 0 0.25rem 0.75rem #acacac;
+}
+
+.details a {
+  overflow-wrap: break-word;
+}

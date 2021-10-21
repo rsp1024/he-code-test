@@ -1,0 +1,19 @@
+.primaryBtn {
+  background-color: var(--primary-color);
+  color: #f7f9ff;
+  border: none;
+  padding: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.primaryBtn a {
+  text-decoration: none;
+  color: #f7f9ff;
+}
+
+.primaryBtn:hover {
+  box-shadow: 0 0.25rem 0.75rem var(--primary-color-light);
+}

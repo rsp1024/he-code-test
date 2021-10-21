@@ -1,0 +1,15 @@
+.repo__container {
+  border: 0.1rem solid grey;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.repo__container:hover {
+  box-shadow: 0 0.25rem 0.75rem #acacac;
+}
+
+.repo__container h3 {
+  overflow-wrap: break-word;
+}

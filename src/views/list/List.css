@@ -1,0 +1,89 @@
+.list {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.list h1 {
+  text-align: center;
+}
+
+.list h2 {
+  margin-bottom: 0;
+}
+
+.list__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.list__input-box {
+  background-color: #f7f9ff;
+  border: 0.1rem #c5c5c5 solid;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-weight: 600;
+  width: 15rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.list__input-box:hover {
+  box-shadow: 0 0.25rem 0.75rem #acacac;
+}
+
+.list__sort-filters select,
+.list__filters label,
+.list__filters input {
+  cursor: pointer;
+}
+
+.list__filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.list__form label {
+  margin-bottom: 1rem;
+}
+
+.list__form input {
+  margin-right: 1rem;
+}
+
+.list__sort-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Adjust search form for mobile @430px */
+@media (max-width: 430px) {
+  .list__form-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list__form-items input {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Adjust container for large monitors @1440px */
+@media (min-width: 1440px) {
+  .list {
+    width: 35%;
+  }
+}
